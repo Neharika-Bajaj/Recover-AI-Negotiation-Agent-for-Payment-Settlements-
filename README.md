@@ -141,9 +141,9 @@ python data/generate_data.py
 # 3. Train and compare the models (saves the best one)
 python ml/train_models.py
 
-# 4. Set your Gemini API key (needed for the live negotiation endpoint)
-#    Get a free key at https://aistudio.google.com/apikey - no billing required
-export GEMINI_API_KEY=your-key-here
+# 4. Set your Grok API key (needed for the live negotiation endpoint)
+#    Get a free key at https://console.groq.com/keys - no billing required
+export GROK_KEY=your-key-here
 
 # 5. Start the backend
 cd backend
